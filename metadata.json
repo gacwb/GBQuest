@@ -1,0 +1,6 @@
+{
+  "name": "GBQuest - Melhoramento com Alta Precisão",
+  "description": "Sistema completo de melhoramento com alta precisão de questões para concursos públicos com bancas personalizadas, upload de leis, sessões, banco de questões e análise de desempenho com Supabase e Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
