@@ -1,0 +1,6 @@
+{
+  "summary":  "Plano arquitetural para resolução definitiva de perda de conexão ao limpar cache e em guia anônima: fallback estático de credenciais do Supabase, hidratação automática no boot e no evento de login (onAuthStateChange) sem filtro restritivo de user_id, bloqueio estrito de upload com acervo vazio e botão de restaurar backup físico JSON com upsert em nuvem.",
+  "updatedAt":  "2026-11-11T00:38:30.798757516Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

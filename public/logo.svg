@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <!-- Background -->
+  <rect width="1000" height="1000" fill="#2046fa"/>
+
+  <!-- Crosshair lines -->
+  <!-- Top vertical -->
+  <line x1="500" y1="0" x2="500" y2="245" stroke="#ffffff" stroke-width="42" stroke-linecap="square"/>
+  <!-- Bottom vertical -->
+  <line x1="500" y1="755" x2="500" y2="1000" stroke="#ffffff" stroke-width="42" stroke-linecap="square"/>
+  <!-- Left horizontal -->
+  <line x1="0" y1="500" x2="265" y2="500" stroke="#ffffff" stroke-width="42" stroke-linecap="square"/>
+  <!-- Right horizontal -->
+  <line x1="725" y1="500" x2="1000" y2="500" stroke="#ffffff" stroke-width="42" stroke-linecap="square"/>
+
+  <!-- 4 Target Ring Arcs (Radius 430, stroke 42, with gaps at axes) -->
+  <!-- Arc 1: Top-Right (from angle 9deg to 81deg) -->
+  <path d="M 924.6 432.8 A 430 430 0 0 0 567.2 75.4" fill="none" stroke="#ffffff" stroke-width="42" stroke-linecap="square"/>
+  <!-- Arc 2: Top-Left (from angle 99deg to 171deg) -->
+  <path d="M 432.8 75.4 A 430 430 0 0 0 75.4 432.8" fill="none" stroke="#ffffff" stroke-width="42" stroke-linecap="square"/>
+  <!-- Arc 3: Bottom-Left (from angle 189deg to 261deg) -->
+  <path d="M 75.4 567.2 A 430 430 0 0 0 432.8 924.6" fill="none" stroke="#ffffff" stroke-width="42" stroke-linecap="square"/>
+  <!-- Arc 4: Bottom-Right (from angle 279deg to 351deg) -->
+  <path d="M 567.2 924.6 A 430 430 0 0 0 924.6 567.2" fill="none" stroke="#ffffff" stroke-width="42" stroke-linecap="square"/>
+
+  <!-- Stylized Central Q -->
+  <g id="letter-Q">
+    <!-- Outer oval & inner cut out via fill-rule evenodd -->
+    <path fill-rule="evenodd" fill="#ffffff" d="
+      M 500 245
+      C 630 245 735 355 735 500
+      C 735 645 630 755 500 755
+      C 370 755 265 645 265 500
+      C 265 355 370 245 500 245
+      Z
+      M 500 338
+      C 415 338 360 412 360 500
+      C 360 588 415 662 500 662
+      C 585 662 640 588 640 500
+      C 640 412 585 338 500 338
+      Z
+    "/>
+    <!-- Tail of the Q (angled bar cutting through bottom-right) -->
+    <!-- Starts from (480, 580) inside the hole and extends to (695, 780) with clean terminal -->
+    <polygon points="480,580 528,580 695,735 695,780 605,780 480,645" fill="#ffffff"/>
+  </g>
+</svg>
